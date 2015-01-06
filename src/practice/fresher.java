@@ -1,5 +1,6 @@
 package practice;
 import java.util.ArrayList;
+import java.lang.String;
 /**
  * Created by simon on 06/01/15.
  */
@@ -16,7 +17,8 @@ public class fresher {
         ArrayList<String> data = new ArrayList<String>();
         data.add("hello");
         data.add("goodbye");
-        for(String e:data)
+        for (String e : data) {
             System.out.println(e);
+        }
     }
 }
