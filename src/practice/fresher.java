@@ -48,7 +48,7 @@ public class fresher {
         myStack.push(st.nextToken());
     }
 
-    System.out.print('"' + w + '"' + " backwards by word is:\n\t\"");
+    System.out.print('"' + w + '"' + " backwards by word is:\n");
     while (!myStack.empty()) {
         System.out.print(myStack.pop());
         System.out.print(' ');
