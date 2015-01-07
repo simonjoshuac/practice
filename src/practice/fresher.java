@@ -1,6 +1,9 @@
 package practice;
 import java.util.ArrayList;
 import java.lang.String;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by simon on 06/01/15.
  */
@@ -21,5 +24,18 @@ public class fresher {
         for (String e : data) {
             System.out.println(e);
         }
+
+
+        Set<String> hashSet = new HashSet<String>();
+        hashSet.add("One");
+        hashSet.add("Two");
+        hashSet.add("One");
+        hashSet.add("Three");
+        for (String v : hashSet)
+
+        {
+            System.out.println(v);
+        }
     }
 }
+
