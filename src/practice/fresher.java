@@ -17,6 +17,7 @@ public class fresher {
         ArrayList<String> data = new ArrayList<String>();
         data.add("hello");
         data.add("goodbye");
+
         for (String e : data) {
             System.out.println(e);
         }
