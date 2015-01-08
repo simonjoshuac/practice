@@ -12,10 +12,10 @@ public class listex {
     public static void main (String[] args)
     {
 
-        List<String> list = new ArrayList<String>();
-        list.add("Blobbo");
-        list.add("Cracked");
-        list.add("Dumbo");
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("a");
+        list.add("r");
+        list.add("v");
         Object[] ol = list.toArray();
         System.out.println("Array of Object has length " + ol.length);
         String[] sl;
