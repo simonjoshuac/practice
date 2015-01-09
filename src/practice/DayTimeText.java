@@ -10,7 +10,7 @@ import java.net.Socket;
  */
 public class DayTimeText {
 
-        public static final short TIME_PORT = 13;
+        public static final short TIME_PORT = 11;
 
         public static void main(String[] argv) {
             String hostName;
